@@ -1,0 +1,1 @@
+<student><ITStudent><name>Student 1</name><studentId>20200021</studentId><programme>[Computer Security, Programming, Database]</programme><courses><course>70</course><course>80</course><course>90</course></courses><marks><mark>26</mark><mark>1</mark><mark>84</mark></marks><average>37.0</average><passed>true</passed></ITStudent></student>
