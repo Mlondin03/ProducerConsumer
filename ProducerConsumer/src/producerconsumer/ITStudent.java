@@ -155,10 +155,10 @@ public class ITStudent {
            marks.add(markValue);
         }
 
-        // Get the average mark.
+        // Get average mark.
         String average = rootElement.getElementsByTagName("average").item(0).getTextContent();
 
-        // Get the passed status.
+        // Get the result status.
         String passed = rootElement.getElementsByTagName("passed").item(0).getTextContent();
 
         ITStudent student = new ITStudent(name, studentId, programmes, courses, marks, Boolean.parseBoolean(passed));
